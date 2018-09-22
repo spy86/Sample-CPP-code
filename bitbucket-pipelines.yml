@@ -5,4 +5,4 @@ pipelines:
           - echo "Sonar pipeline, baby!"
           - curl --insecure -OL https://sonarsource.bintray.com/Distribution/sonar-scanner-cli/sonar-scanner-2.6.1.zip
           - unzip sonar-scanner-2.6.1.zip
-          - ./sonar-scanner-2.6.1/bin/sonar-scanner -Dsonar.projectKey=CPP -Dsonar.organization=spy8681-bitbucket -Dsonar.sources=. -Dsonar.cfamily.build-wrapper-output=bw-output -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=94c1a08fa363533d2fa63980a1b00753b3266adf
+          - ./sonar-scanner-2.6.1/bin/sonar-scanner -Dsonar.projectKey=CPP -Dsonar.organization= -Dsonar.sources=. -Dsonar.cfamily.build-wrapper-output=bw-output -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$TOKEN
