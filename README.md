@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/bb/devops_sysops/cpp/tree/master.svg?style=svg)](https://circleci.com/bb/devops_sysops/cpp/tree/master)
+
+[![SonarQube](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)
 # List of scripts #
 
 * client_tcp.cpp
